@@ -5,7 +5,7 @@
   <link href="/rss.xml" rel="self"/>
   
   <link href="http://www.floatcat.tk/"/>
-  <updated>2017-08-17T15:35:25.802Z</updated>
+  <updated>2017-08-18T05:31:13.445Z</updated>
   <id>http://www.floatcat.tk/</id>
   
   <author>
@@ -20,7 +20,132 @@
     <link href="http://www.floatcat.tk/2016/10/Markdown/"/>
     <id>http://www.floatcat.tk/2016/10/Markdown/</id>
     <published>2016-10-19T09:44:04.000Z</published>
-    <updated>2017-08-17T15:35:25.802Z</updated>
+    <updated>2017-08-18T05:31:13.445Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Markdown是一种标记语言，帮助你快速排版文章，语法由简单易懂的符号所组成，可以随时转换成HTML。简洁美观，以纯文本的方式保存，兼容性极强，易读易写，因而越来越流行。<br>这里有Markdown官方文档<a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="external">（英）</a>、<a href="http://www.appinn.com/markdown/" target="_blank" rel="external">（简）</a>比较复杂，本文注重介绍Markdown的常见语法，一行语法一行示例，可以帮你快速入门，<a id="more"></a>下面步入正题：</p>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>Markdown标题语法 ，支持最多 <strong>六</strong> 级标题。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">注意中间空格</div><div class="line"><span class="section"># 一级标题</span></div><div class="line"><span class="section">### 三级标题</span></div><div class="line"><span class="section">###### 六级标题</span></div></pre></td></tr></table></figure></p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h3 id="换行与空格"><a href="#换行与空格" class="headerlink" title="换行与空格"></a>换行与空格</h3><p>Markdown转换成HTML后会自动排版，所以无需手动换行。当然你也可以强制换行，先输入<strong>两个空格</strong>，然后按下<strong>Enter</strong>。（仅按一次<strong>Enter</strong>，会被视为空格）<br>按两次<strong>Enter</strong>，会留空一行并换行，在退出引言、清单时才用这样做，效果如下：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">多个空格与空行都会识别成一个。</div><div class="line">。。。。。。          。。。。。。。。9</div><div class="line">。。。。。。  。。。。。。。。9  </div><div class="line">。。。。。。。。。。。。。。</div><div class="line"></div><div class="line"></div><div class="line">9</div></pre></td></tr></table></figure></p>
+<p>。。。。。。          。。。。。。。。9<br>。。。。。。  。。。。。。。。9<br>。。。。。。。。。。。。。。</p>
+<p>9  </p>
+<h3 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h3><p>强调使用星号 * 或者下划线 _ 都可以，一个代表斜体，两个代表加粗：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="emphasis">*一个斜体*</span>    <span class="emphasis">_一个斜体_</span> </div><div class="line"><span class="strong">**两个加粗**</span>    <span class="strong">__两个加粗__</span>  </div><div class="line"><span class="strong">***三个自然**</span>*   <span class="strong">___三个__</span>_</div></pre></td></tr></table></figure></p>
+<p><em>一个斜体</em>    <em>一个斜体</em><br><strong>两个加粗</strong>    <strong>两个加粗</strong><br><strong><em>三个自然</em></strong>   <strong><em>三个</em></strong></p>
+<h3 id="清单"><a href="#清单" class="headerlink" title="清单"></a>清单</h3><p>Markdown支持无序清单和有序清单，退出清单模式，需留空一行<br>无序清单使用星号 * ，加 + 、减 - 作为标记,在标记前加<strong>两个Tab</strong>来表示代表多重清单，例：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">空格不能少</div><div class="line"><span class="bullet">* </span>清单一</div><div class="line"><span class="bullet">* </span>清单二</div><div class="line"><span class="bullet">* </span>清单三</div><div class="line"><span class="bullet">- </span>清单一</div><div class="line">  - 清单二</div><div class="line"><span class="code">    - 清单三</span></div><div class="line"><span class="bullet">+ </span>清单四</div></pre></td></tr></table></figure></p>
+<ul>
+<li>清单一</li>
+<li>清单二</li>
+<li>清单三</li>
+</ul>
+<ul>
+<li>清单一</li>
+<li>一级清单<ul>
+<li>二级清单<ul>
+<li>三级清单</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>清单四</li>
+</ul>
+<p>有序清單則使用數字接著一個英文句點：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">1.  </span>Bird</div><div class="line"><span class="bullet">2.  </span>McHale</div><div class="line"><span class="bullet">3.  </span>Parish</div></pre></td></tr></table></figure></p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>在<strong>开头</strong>使用 &gt; 表示引言，多个 &gt; 表示多重引言。（退出引言模式，需留空一行）<br>引言区域内还可以使用其他Markdown语法，包括标题、清单、程序源码：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">&gt;我们一来到世间，社会就会在我们面前树起了一个巨大的问号，你怎样度过自己的一生？我从来不把安逸和享乐看作是生活目的本身。 —— 爱因斯坦  </div><div class="line"></div><div class="line">&gt;人的智慧不用就会枯萎。   ——达芬·奇</div><div class="line">&gt;&gt; #### 阿尔伯特·爱因斯坦生于德国</div></pre></td></tr></table></figure></p>
+<blockquote>
+<p>我们一来到世间，社会就会在我们面前树起了一个巨大的问号，你怎样度过自己的一生？我从来不把安逸和享乐看作是生活目的本身。 —— 爱因斯坦  </p>
+<p>人的智慧不用就会枯萎。   ——达芬·奇</p>
+<blockquote>
+<h4 id="阿尔伯特·爱因斯坦生于德国"><a href="#阿尔伯特·爱因斯坦生于德国" class="headerlink" title="阿尔伯特·爱因斯坦生于德国"></a>阿尔伯特·爱因斯坦生于德国</h4></blockquote>
+</blockquote>
+<h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><p>在一行中用三个或以上的星号 * 、下划线 _ 來建立一個分隔線，行內不能有除了空格以外的其他东西。<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="emphasis">***</span></div><div class="line">分隔线</div><div class="line"><span class="emphasis">___</span></div><div class="line">分隔线</div><div class="line"><span class="emphasis">***</span></div></pre></td></tr></table></figure></p>
+<hr>
+<p>分隔线</p>
+<hr>
+<p>分隔线</p>
+<hr>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>有一行式与参考式，一行式比较简单[]后接()，可填写绝对地址或相对地址：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">[<span class="string">This link</span>](<span class="link">http://example.net/ "可选的描述"</span>) has no title attribute.</div><div class="line">允许链接到标题 [<span class="string">简单链接</span>](<span class="link">#简单链接</span>)</div></pre></td></tr></table></figure></p>
+<p><a href="http://example.net/" title="可选的描述" target="_blank" rel="external">This link</a> has no title attribute.<br><a href="#简单链接">简单链接</a><br>参考式便于阅读，链接体可放置文中任意位置，第二个[]可填可不填，填了链接体[]需与之对应：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">I get 10 times more traffic from [<span class="string">Google</span>][<span class="symbol"></span>] than from[<span class="string">Yahoo</span>][<span class="symbol">2</span>] or [<span class="string">MSN</span>][<span class="symbol"></span>].</div><div class="line">[<span class="symbol">google</span>]: <span class="link">http://google.com/        "Google"</span></div><div class="line">[<span class="symbol">2</span>]:  <span class="link">http://search.yahoo.com/  "Yahoo Search"</span></div><div class="line">[<span class="symbol">msn</span>]:    <span class="link">http://search.msn.com/    "MSN Search"</span></div></pre></td></tr></table></figure></p>
+<p>I get 10 times more traffic from <a href="http://google.com/" title="Google" target="_blank" rel="external">Google</a> than from<a href="http://search.yahoo.com/" title="Yahoo Search" target="_blank" rel="external">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search" target="_blank" rel="external">MSN</a>.</p>
+<h4 id="简单链接"><a href="#简单链接" class="headerlink" title="简单链接"></a>简单链接</h4><p>还有一种更简洁的方式，处理网址与邮件地址，只需用&lt;&gt;包括起来：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;http://example.com/&gt;</div><div class="line">&lt;address@example.com&gt;</div><div class="line">对于邮件地址还会进行编码转换，以混淆部分机器。</div></pre></td></tr></table></figure></p>
+<p><a href="http://example.com/" target="_blank" rel="external">http://example.com/</a><br><a href="&#x6d;&#97;&#105;&#108;&#x74;&#111;&#x3a;&#97;&#100;&#100;&#x72;&#x65;&#115;&#115;&#64;&#101;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#46;&#x63;&#111;&#x6d;">&#97;&#100;&#100;&#x72;&#x65;&#115;&#115;&#64;&#101;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#46;&#x63;&#111;&#x6d;</a></p>
+<h3 id="程序代码"><a href="#程序代码" class="headerlink" title="程序代码"></a>程序代码</h3><p>在一行中引用一小块代码用``包括，一整行代码先空一行后缩进一个Tab：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">markdown 以说明代码语言。</div><div class="line">Use the <span class="code">`printf()`</span> function.</div><div class="line"></div><div class="line"><span class="code">	Use the printf() function.</span></div></pre></td></tr></table></figure></p>
+<p>Use the <code>printf()</code> function.</p>
+<pre><code>use the printf() function.
+</code></pre><p>代码段:<br><img src="/image/Markdown3.png" alt="代码段"></p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>和链接十分相似，同样也支持参考式：<br><figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">![<span class="string">android</span>](<span class="link">/image/Markdown1.png "example android"</span>)  ![<span class="string">apple</span>][<span class="symbol">id</span>]</div><div class="line">[<span class="symbol">id</span>]: <span class="link">/image/Markdown2.png  "example apple"</span></div></pre></td></tr></table></figure></p>
+<p><img src="/image/Markdown1.png" alt="android" title="example android">  <img src="/image/Markdown2.png" alt="apple" title="example apple"></p>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul>
+<li>Markdown 允许直接插入HTML代码，实现相应效果。<br> 直接插入（缩进）或是用``包括，最后HTML代码都会被执行。</li>
+<li>对于转义字符 <code>\ * + - _ []  () # . !</code>   无法正确表示时，符号前加入<code>\</code>即可。</li>
+<li>HTML标签符<code>&amp; &lt;</code>无法正确表示时，分别用<code>&amp;amp; &amp;lt;</code> 代替。</li>
+</ul>
+<h3 id="GitHub-特有语法-原文"><a href="#GitHub-特有语法-原文" class="headerlink" title="GitHub 特有语法(原文)"></a>GitHub 特有语法<a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external">(原文)</a></h3><ul>
+<li><strong>简单表格</strong>  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">| Tables        | Are           | Cool  |</div><div class="line">| ------------- |:-------------:| -----:|</div><div class="line">| col 3 is      | right-aligned | $1600 |</div><div class="line">| col 2 is      | centered      |   $12 |</div><div class="line">| zebra stripes | are neat      |    $1 |</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Tables</th>
+<th style="text-align:center">Are</th>
+<th style="text-align:right">Cool</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>col 3 is</td>
+<td style="text-align:center">right-aligned</td>
+<td style="text-align:right">$1600</td>
+</tr>
+<tr>
+<td>col 2 is</td>
+<td style="text-align:center">centered</td>
+<td style="text-align:right">$12</td>
+</tr>
+<tr>
+<td>zebra stripes</td>
+<td style="text-align:center">are neat</td>
+<td style="text-align:right">$1</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>任务清单</strong>  <figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">- </span>[x] This is a complete item</div><div class="line"><span class="bullet">- </span>[ ] This is an incomplete item</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<ul>
+<li style="list-style: none"><input type="checkbox" checked> This is a complete item</li>
+<li style="list-style: none"><input type="checkbox"> This is an incomplete item</li>
+</ul>
+<ul>
+<li><strong>目录</strong><br>不少Markdown解析器，生成目录只需另起一行输入<code>[TOC]</code>GitHub还不支持。<br>暂时只能通过清单和链接标题的方式，手动制作目录。<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="bullet">* </span>[<span class="string">简介</span>](<span class="link">#简介</span>)</div><div class="line"><span class="bullet">* </span>[<span class="string">链接</span>](<span class="link">#链接</span>)</div><div class="line">  * [<span class="string">图片</span>](<span class="link">#图片</span>)</div></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<ul>
+<li><a href="#简介">简介</a></li>
+<li><a href="#链接">链接</a><ul>
+<li><a href="#图片">图片</a></li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<ul>
+<li><strong>划去</strong><br>用<code>~~</code>包括，如<code>~~划去~~</code>，<del>划去</del></li>
+<li><strong>Emoji 表情</strong><br>在需要的地方输入相应代码， <code>:sparkles:</code> :sparkles: <a href="http://www.webpagefx.com/tools/emoji-cheat-sheet/" target="_blank" rel="external">表情列表</a></li>
+<li><strong>呼叫与链接</strong>  <ul>
+<li>GitHub允许呼叫相应用户、团队，使用<code>@username</code>。</li>
+<li>可以通过commit SHA-1，自动生成指向commit的链接。</li>
+<li>可以通过<strong>Issues</strong>问题列表的序号<code>#1</code>,自动指向问题的链接。</li>
+</ul>
+</li>
+</ul>
+<p>参考：<br>Markdown繁体  <a href="http://markdown.tw/" target="_blank" rel="external">http://markdown.tw/</a><br>Mastering Markdown  <a href="https://guides.github.com/features/mastering-markdown/" target="_blank" rel="external">https://guides.github.com/features/mastering-markdown/</a><br>markdown简明语法  <a href="http://ibruce.info/2013/11/26/markdown/" target="_blank" rel="external">http://ibruce.info/2013/11/26/markdown/</a><br>Markdown——入门指南   <a href="http://www.jianshu.com/p/1e402922ee32/" target="_blank" rel="external">http://www.jianshu.com/p/1e402922ee32/</a></p>
+]]></content>
     
     <summary type="html">
     
@@ -40,7 +165,28 @@
     <link href="http://www.floatcat.tk/2016/10/google/"/>
     <id>http://www.floatcat.tk/2016/10/google/</id>
     <published>2016-10-15T01:16:33.000Z</published>
-    <updated>2017-08-15T13:07:35.328Z</updated>
+    <updated>2017-08-18T05:30:05.329Z</updated>
+    
+    <content type="html"><![CDATA[<ul>
+<li>如何访问google不在讨论之列。</li>
+<li>大部分指令百度也可以用，没有仔细测试过。<h3 id="最简单可靠的方法："><a href="#最简单可靠的方法：" class="headerlink" title="最简单可靠的方法："></a>最简单可靠的方法：</h3>点击右下角的高级搜索<a id="more"></a><br><img src="/image/google1.png" alt="google1"><br><img src="/image/google2.png" alt="google2"><h3 id="常用指令与技巧："><a href="#常用指令与技巧：" class="headerlink" title="常用指令与技巧："></a>常用指令与技巧：</h3><img src="/image/google3.jpg" alt="google3"><br><img src="/image/google4.jpg" alt="google4"><br>虽然Google可以回答你一些简单问题，像：中国有多少人。但尽量提取关键词：中国、人口，才能获得更多更好的答案。<h4 id="使用细节："><a href="#使用细节：" class="headerlink" title="使用细节："></a>使用细节：</h4></li>
+<li>指令数量位置不限（总单词数上限为32个），指令和关键词之间无空格，还可以组合，如：“-site:edu.cn”。</li>
+<li>site:google.com   “:”使用英文半角符号。域名不用带“<a href="http://”。可以“site:edu.cn”以搜索整个教育网。" target="_blank" rel="external">http://”。可以“site:edu.cn”以搜索整个教育网。</a></li>
+<li>-     代表排除，自然也有与“+” 和 或“|”。</li>
+<li>..    代表数字范围，可以是年份也可以是其他。</li>
+<li>在<a href="https://scholar.google.com/" target="_blank" rel="external">谷歌学术中</a>还可以用“author:”来搜索特定作者。<h4 id="其他："><a href="#其他：" class="headerlink" title="其他："></a>其他：</h4></li>
+<li>link         搜索所有含指向特定链接的网页，如“link:scholar.google.com/”。</li>
+<li>cache      搜索某页面的缓存，如“cache:scholar.google.com/”。</li>
+<li>allintitle    只要标题中含有关键词即可，不管文本是否包含关键词。</li>
+<li>inurl allinurl 与“intitle“ ”allintitle”类似，搜索链接地址里是否有指定关键词。</li>
+<li>related    搜索与之相似的页面，如“related:www.sina.com.cn”</li>
+<li>define     Google内置了词典，使用“define:”可以查看某个单词的解释。  <a href="https://translate.google.com/#auto/zh-CN/" target="_blank" rel="external">全文翻译</a></li>
+<li>点击”I’m Feeling Lucky” （手气不错）可以直接访问关键词搜索第一个结果的网页。</li>
+<li>过滤Google的图片搜索,使之只出现人的图像。只要搜索之后在URL地址后面加上后缀&amp;imgtype=face</li>
+</ul>
+<p><em>了解更多内容可以访问：Google Operating System  <a href="http://googlesystem.blogspot.com/" target="_blank" rel="external">http://googlesystem.blogspot.com/</a></em></p>
+<p>参考资料：<br><a href="http://www.hackcollege.com/blog/2011/11/23/infographic-get-more-out-of-google.html" target="_blank" rel="external">Get More Out Of Google</a><br><a href="/image/google5.png">Get More Out Of Google (中文版）</a><br><a href="http://www.ecaa.ntu.edu.tw/weifang/cea/%E5%96%84%E7%94%A8google.htm#_Toc87766029" target="_blank" rel="external">善用GOOGLE  –  從入門到精通</a><br><a href="http://article.yeeyan.org/view/6774/2620" target="_blank" rel="external">聪明地使用Google的7个技巧</a></p>
+]]></content>
     
     <summary type="html">
     
@@ -65,6 +211,9 @@
     <id>http://www.floatcat.tk/2016/10/hello-hexo/</id>
     <published>2016-10-13T13:16:00.000Z</published>
     <updated>2017-08-15T13:07:35.280Z</updated>
+    
+    <content type="html"><![CDATA[<p>&ensp;&ensp;&ensp;&ensp;插队的时候，我喂过猪、也放过牛。假如没有人来管，这两种动物也完全知道该怎样生活。它们会自由自在地闲逛，饥则食渴则饮，春天来临时还要谈谈爱情；这样一来，它们的生活层次很低，完全乏善可陈。人来了以后，给它们的生活做出了安排：每一头牛和每一口猪的生活都有了主题。就它们中的大多数而言，这种生活主题是很悲惨的：前者的主题是干活，后者的主题是长肉。我不认为这有什么可抱怨的，因为我当时的生活也不见得丰富了多少，除了八个样板戏，也没有什么消遣。有极少数的猪和牛，它们的生活另有安排。<a id="more"></a>以猪为例，种猪和母猪除了吃，还有别的事可干。就我所见，它们对这些安排也不大喜欢。种猪的任务是交配，换言之，我们的政策准许它当个花花公子。但是疲惫的种猪往往摆出一种肉猪（肉猪是阉过的）才有的正人君子架势，死活不肯跳到母猪背上去。母猪的任务是生崽儿，但有些母猪却要把猪崽儿吃掉。总的来说，人的安排使猪痛苦不堪。但它们还是接受了：猪总是猪啊。<br>&ensp;&ensp;&ensp;&ensp;对生活做种种设置是人特有的品性。不光是设置动物，也设置自己。我们知道，在古希腊有个斯巴达，那里的生活被设置得了无生趣，其目的就是要使男人成为亡命战士，使女人成为生育机器，前者像些斗鸡，后者像些母猪。这两类动物是很特别的，但我以为，它们肯定不喜欢自己的生活。但不喜欢又能怎么样？人也好，动物也罢，都很难改变自己的命运。<br>&ensp;&ensp;&ensp;&ensp;以下谈到的一只猪有些与众不同。我喂猪时，它已经有四五岁了，从名分上说，它是肉猪，但长得又黑又瘦，两眼炯炯有光。这家伙像山羊一样敏捷，一米高的猪栏一跳就过；它还能跳上猪圈的房顶，这一点又像是猫——所以它总是到处游逛，根本就不在圈里呆着。所有喂过猪的知青都把它当宠儿来对待，它也是我的宠儿——因为它只对知青好，容许他们走到三米之内，要是别的人，它早就跑了。它是公的，原本该劁掉。不过你去试试看，哪怕你把劁猪刀藏在身后，它也能嗅出来，朝你瞪大眼睛，噢噢地吼起来。我总是用细米糠熬的粥喂它，等它吃够了以后，才把糠对到野草里喂别的猪。其他猪看了嫉妒，一起嚷起来。这时候整个猪场一片鬼哭狼嚎，但我和它都不在乎。吃饱了以后，它就跳上房顶去晒太阳，或者模仿各种声音。它会学汽车响、拖拉机响，学得都很像；有时整天不见踪影，我估计它到附近的村寨里找母猪去了。我们这里也有母猪，都关在圈里，被过度的生育搞得走了形，又脏又臭，它对它们不感兴趣；村寨里的母猪好看一些。它有很多精彩的事迹，但我喂猪的时间短，知道得有限，索性就不写了。总而言之，所有喂过猪的知青都喜欢它，喜欢它特立独行的派头儿，还说它活得潇洒。但老乡们就不这么浪漫，他们说，这猪不正经。领导则痛恨它，这一点以后还要谈到。我对它则不止是喜欢——我尊敬它，常常不顾自己虚长十几岁这一现实，把它叫做“猪兄”。如前所述，这位猪兄会模仿各种声音。我想它也学过人说话，但没有学会——假如学会了，我们就可以做倾心之谈。但这不能怪它。人和猪的音色差得太远了。<br>&ensp;&ensp;&ensp;&ensp;后来，猪兄学会了汽笛叫，这个本领给它招来了麻烦。我们那里有座糖厂，中午要鸣一次汽笛，让工人换班。我们队下地干活时，听见这次汽笛响就收工回来。我的猪兄每天上午十点钟总要跳到房上学汽笛，地里的人听见它叫就回来——这可比糖厂鸣笛早了一个半小时。坦白地说，这不能全怪猪兄，它毕竟不是锅炉，叫起来和汽笛还有些区别，但老乡们却硬说听不出来。领导上因此开了一个会，把它定成了破坏春耕的坏分子，要对它采取专政手段——会议的精神我已经知道了，但我不为它担忧——因为假如专政是指绳索和杀猪刀的话，那是一点门都没有的。以前的领导也不是没试过，一百人也这不住它。狗也没用：猪兄跑起来像颗鱼雷，能把狗撞出一丈开外。谁知这回是动了真格的，指导员带了二十几个人，手拿五四式手枪；副指导员带了十几人，手持看青的火枪，分两路在猪场外的空地上兜捕它。这就使我陷入了内心的矛盾：按我和它的交情，我该舞起两把杀猪刀冲出去，和它并肩战斗，但我又觉得这样做太过惊世骇俗——它毕竟是只猪啊；还有一个理由，我不敢对抗领导，我怀疑这才是问题之所在。总之，我在一边看着。猪兄的镇定使我佩服之极：它很冷静地躲在手枪和火枪的连线之内，任凭人喊狗咬，不离那条线。这样，拿手枪的人开火就会把拿火枪的打死，反之亦然；两头同时开火，两头都会被打死。至于它，因为目标小，多半没事。就这样连兜了几个圈子，它找到了一个空子，一头撞出去了；跑得潇洒之极。以后我在甘蔗地里还见过它一次，它长出了獠牙，还认识我，但已不容我走近了。这种冷淡使我痛心，但我也赞成它对心怀叵测的人保持距离。<br>&ensp;&ensp;&ensp;&ensp;我已经四十岁了，除了这只猪，还没见过谁敢于如此无视对生活的设置。相反，我倒见过很多想要设置别人生活的人，还有对被设置的生活安之若素的人。因为这个原故，我一直怀念这只特立独行的猪。</p>
+]]></content>
     
     <summary type="html">
     
