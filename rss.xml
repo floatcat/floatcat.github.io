@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>float is a cat</title>
+  
+  <link href="/rss.xml" rel="self"/>
+  
+  <link href="http://www.floatcat.tk/"/>
+  <updated>2017-08-17T15:35:25.802Z</updated>
+  <id>http://www.floatcat.tk/</id>
+  
+  <author>
+    <name>float cat</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown 常见语法</title>
+    <link href="http://www.floatcat.tk/2016/10/Markdown/"/>
+    <id>http://www.floatcat.tk/2016/10/Markdown/</id>
+    <published>2016-10-19T09:44:04.000Z</published>
+    <updated>2017-08-17T15:35:25.802Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h3&gt;&lt;p&gt;Markdown是一种标记语言，帮助你快速排版文章，语法由简单易懂的符号所组成，可以随时转换成HTML。简洁美观，以纯文本的方式保存，兼容性极强，易读易写，因而越来越流行。&lt;br&gt;这里有Markdown官方文档&lt;a href=&quot;http://daringfireball.net/projects/markdown/syntax&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;（英）&lt;/a&gt;、&lt;a href=&quot;http://www.appinn.com/markdown/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;（简）&lt;/a&gt;比较复杂，本文注重介绍Markdown的常见语法，一行语法一行示例，可以帮你快速入门，
+    
+    </summary>
+    
+    
+      <category term="Markdown" scheme="http://www.floatcat.tk/tags/Markdown/"/>
+    
+      <category term="GitHub" scheme="http://www.floatcat.tk/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Google搜索使用技巧</title>
+    <link href="http://www.floatcat.tk/2016/10/google/"/>
+    <id>http://www.floatcat.tk/2016/10/google/</id>
+    <published>2016-10-15T01:16:33.000Z</published>
+    <updated>2017-08-15T13:07:35.328Z</updated>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;如何访问google不在讨论之列。&lt;/li&gt;
+&lt;li&gt;大部分指令百度也可以用，没有仔细测试过。&lt;h3 id=&quot;最简单可靠的方法：&quot;&gt;&lt;a href=&quot;#最简单可靠的方法：&quot; class=&quot;headerlink&quot; title=&quot;最简单可靠的方法：&quot;&gt;&lt;/a&gt;最简单可靠的方法：&lt;/h3&gt;点击右下角的高级搜索
+    
+    </summary>
+    
+    
+      <category term="Google" scheme="http://www.floatcat.tk/tags/Google/"/>
+    
+      <category term="搜索" scheme="http://www.floatcat.tk/tags/%E6%90%9C%E7%B4%A2/"/>
+    
+      <category term="技巧" scheme="http://www.floatcat.tk/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>特立独行的猪</title>
+    <link href="http://www.floatcat.tk/2016/10/hello-hexo/"/>
+    <id>http://www.floatcat.tk/2016/10/hello-hexo/</id>
+    <published>2016-10-13T13:16:00.000Z</published>
+    <updated>2017-08-15T13:07:35.280Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;ensp;&amp;ensp;&amp;ensp;&amp;ensp;插队的时候，我喂过猪、也放过牛。假如没有人来管，这两种动物也完全知道该怎样生活。它们会自由自在地闲逛，饥则食渴则饮，春天来临时还要谈谈爱情；这样一来，它们的生活层次很低，完全乏善可陈。人来了以后，给它们的生活做出了安排：每一头牛和每一口猪的生活都有了主题。就它们中的大多数而言，这种生活主题是很悲惨的：前者的主题是干活，后者的主题是长肉。我不认为这有什么可抱怨的，因为我当时的生活也不见得丰富了多少，除了八个样板戏，也没有什么消遣。有极少数的猪和牛，它们的生活另有安排。
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
